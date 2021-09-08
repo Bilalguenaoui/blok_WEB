@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Bilal Guenaoui
 
 #### Je startniveau:
 blauw
@@ -39,12 +39,12 @@ responsive
 https://nos.nl/
  
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Nos homepage
+<img src="images/telefoon_pagina.jpg" width="375px" alt="home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+nose artikel  
+<img src="images/telefoon_side_pagina.jpg" width="375px" alt="artikel">
  
 </details>
 
