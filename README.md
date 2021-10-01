@@ -178,17 +178,15 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week heb ben ik erg ver gekomen met mijn website ik heb de hele header al af en werkend gekregen. Wel had ik nog wat problemen met de dropdownmenu's die 
+linkten in mijnn css niet naar de juiste ul. Dit probleem heb ik uiteindelijk opgelost samen met de studentencoaches. ik moest de ul hebben die in de ul verstopt zat.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1    
+ iets wat ik wil vragen voor deze week is of ik een wat beter inzicht kan krijgen hoe het eindgesprek er aan toe gaat.
 
 
 ### Verslag van meeting
