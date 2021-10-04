@@ -143,28 +143,33 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+ 
+### Parkinson
+De website is is niet te gebruiken met de mouse-pad. Wel met de tap en enter toets.
+ 
+### Brillen
+de eerste bril die ik heb getest is een bril die alles een beetje wazig maakt. Als ik 1x inzoom is de website goed te lezen. 
+ 
+Bij de gele bril is mijn website nog goed te gebruiken omdat de NOS website niet veel kleur heeft 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Bij de centraal field loss bril. Is de website ook goed te gebruiken als de gebruiker een beetje scrolt.
+ 
+### Ballon
+Als je met de ballon probeert hoog te houden kun je de website wel bedienen maar de artikelen niet echt goed lezen.
+ 
+### Toetsenbord
+mijn website is goed te gebruiken met een toetsenbord. 
+ 
+### Screenreader
+Mijn website wordt goed gelezen door 
+In de header worden de dropdown elementen gelezen als “knop” terwijl de een dropdown menu is die veel meer opties biedt dan alleen een button.
 
+De zoek loep wordt ook een knop genoemd terwijl ik wil dat die een zoekloep wordt genoemd.
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ik weet niet hoe ik dit moet verbeteren
+ 
+### Uitslag
+Ik heb besloten om mijn navigatie linkjes in de header wat te vergroten omdat die nu niet zo goed te zien zijn voor mensen met een oog afwijking.
 
 </details>
 
