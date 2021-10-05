@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Bilal Guenaoui
 
 #### Je startniveau:
-blauw
+Blauw
 
 #### Je focus:
-responsive
+Responsive
  
 </details>
 
@@ -113,22 +113,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
  
 
 ### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De vrgaen die ik wilde stellen waren
 
 </details>
 
@@ -189,19 +174,15 @@ linkten in mijnn css niet naar de juiste ul. Dit probleem heb ik uiteindelijk op
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+Iets wat ik wil vragen voor deze week is of ik een wat beter inzicht kan krijgen hoe het eindgesprek er aan toe gaat.
 
-| student 1    
- iets wat ik wil vragen voor deze week is of ik een wat beter inzicht kan krijgen hoe het eindgesprek er aan toe gaat.
+ Mijn tweede vraag was hoe ziet het eindgesprek eruit volgende week?
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Chelsey en ik waren de enige twee in de call wij hebben onze website's laten zien aan Rowin de studentcoach. Het was erg fijn om even samen met hem te bespreken waar wij waren en waar we een beetje zijn vastgelopen. Ik heb een korte uitleg gekregen over Media Query's die erg gewardeerd was.
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Tot slot heb ik nog even het groepje van Sanne kunnen bijwonen om een vraagje te stellen over mijn slider die ik gemaakt heb. Namelijk of het erg was dat mijn slider niet zo erg lijkt op die van de NOS.nl.
 
 </details>
 
@@ -215,7 +196,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week heb ik mij gefocus op mijn website geheel responsive te maken. Ik heb veel met Media Query's gewerkt wat ik heel fijn vond werken. Ook heb ik overal in mijn website waar ik kon de states geprobeerd te verwerken. Zo heb ik bijna alle H elementen een hover state gegeven. 
 
 ### Screenshot(s)
 
