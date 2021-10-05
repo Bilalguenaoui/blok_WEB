@@ -1,5 +1,449 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+:root {
+  --rood-color: rgb(230, 30, 20);
+  --wit-color:rgb(255, 255, 255);
+  --grijs-color:rgb(102, 102, 102);
+  --zwart-color:rgb(0, 0, 0);
+  --blauw-color:#708da6;
+}
+
+@font-face {
+  font-family: "Effra";
+  src: url("/fonts/Effra_Std_Lt.ttf") format("Lt.ttf"),
+       url("/fonts/Effra_Std_Rg.ttf") format("Rg.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: effra, helvetica, arial ;
+
+}
+
+img {
+  width: 100%;
+}
+
+header img {
+  width: auto;
+  height:1.25em;
+}
+
+p {
+  font-family: helvetica, arial ;
+margin:1em;
+}
+
+h1 {
+  font-family: helvetica, arial ;
+  margin:1em;
+}
+
+h2 {
+  font-family: helvetica, arial ;
+  margin:1em;
+}
+
+
+h3 {
+  font-family: helvetica, arial ;
+  margin:1em;
+  color:var(--rood-color);
+  font-size: 1.4em;
+}
+
+
+video {
+  padding: 1em;  
+  display:flex;
+  justify-content: center;
+  width:30em; 
+  height:18,5em;
+  
+}
+
+/* liveblog */
+/**********************/
+.liveblog {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: linear-gradient(to top, #00000093, #00000000), url("../images/depay.jpeg");
+  height:280px;
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+
+.liveblog p {
+  color:var(--wit-color);
+  padding:1em;
+  padding-bottom:0;
+  font-size:22px;
+}
+
+.liveblog a {
+  color:var(--wit-color);
+  padding:1em;
+  padding-bottom:0;
+  font-family: Effra, helvetica, arial ;
+  font-size:22px;
+  text-decoration: none;
+}
+
+
+
+     /* dropdown menu */
+  /**********************/
+ul.hidden {
+  /* hide accessible */
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap; /* added line */
+  border: 0;
+  font-size: 1em;
+}
+
+
+/* header navigatie vormgeving */
+/**********************/
+
+header nav ul {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: arial;
+  align-items: center;
+}
+
+header nav ul li{
+  position: relative;
+}
+
+header nav ul li:nth-of-type(3){
+  flex-grow:1;
+}
+
+header nav ul li a{
+display:inline-block;
+padding: 0.20em 0.75em;
+font-size: 1em;
+font-weight: normal;
+color:var(--grijs-color);
+}
+
+header nav ul li a:hover{
+  display:inline-block;
+  padding: 0.20em 0.75em;
+  font-size: 1em;
+  font-weight: normal;
+  color:var(--rood-color);
+  }
+
+header nav ul li button {
+  background-color: transparent;
+  border:none;
+  color:var(--grijs-color);
+  font-size: 1.3em;
+}
+
+header nav ul li button:active {
+  color:var(--rood-color);
+  font-size: 1.4em;
+}
+
+header nav ul li button svg {
+height:1.5em;
+}
+
+header nav ul li:nth-of-type(4) button svg{
+  transform:rotate(90deg);
+}
+
+header nav ul li button svg path{
+  fill:var(--grijs-color);
+}
+
+
+header nav ul li a.active {
+color:var(--rood-color);
+}
+
+
+
+header nav ul a {
+text-decoration: none;
+}
+
+header nav ul ul{
+  flex-direction: column;
+  position:absolute;
+  left:0;
+  top:100%;
+  background-color:var(--wit-color);
+  margin:0;
+}
+
+
+
+
+  
+a {
+    color: var(--grijs-color);
+    font-family: arial;
+    font-size: 1.44em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 1.33rem;
+    text-decoration: none;
+}
+
+
+
+
+/* Blokken vormgeving */
+/**********************/
+
+.uitgelicht ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.uitgelicht ul li {
+  width: 100%;
+  margin:0 0.5em;
+}
+
+.uitgelicht ul li:nth-of-type(3),.uitgelicht ul li:nth-of-type(4){
+  display: none;
+}
+
+.uitgelicht ul li a {
+  text-decoration: none;
+}
+
+
+
+.uitgelicht ul li a img {
+  border-radius: 0.25em;
+}
+
+.uitgelicht ul li a p {
+  margin: 0;
+  margin-top: 0.5em;
+  font-size: 0.7em;
+  text-decoration: none;
+  color:var(--zwart-color);
+  font-family: Effra, helvetica, arial;
+}
+
+
+
+
+
+
+
+
+
+/* kleinere Blokken vormgeving */
+/**********************/
+.uitgelicht-2 {
+  margin-top:2em;
+}
+
+.uitgelicht-2 ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.uitgelicht-2 ul li {
+display: flex;
+margin-top: 0.5em;
+padding: 1rem 0px calc(1rem - 1px);
+border-bottom: 0.75px solid var(--grijs-color);
+}
+
+.uitgelicht-2 ul li:first-of-type {
+margin-top: 0em;
+}
+
+.uitgelicht-2 img {
+  width: 20%;
+}
+
+.uitgelicht-2 ul li p {
+  margin: 1em;
+  font-family: Effra, helvetica, arial;
+}
+
+
+
+
+/* Slider  */
+/**********************/
+section.slider {
+  margin:0;
+}
+
+
+.slider ul {
+    margin:0;
+    padding:1em;
+    list-style:none;
+}
+
+.slider ul:first-of-type {
+  display:flex;
+  max-width: 20em;
+}
+
+.slider ul:first-of-type img {
+  width:100%;
+}
+
+.slider ul:last-of-type {
+  display:flex;
+	overflow:auto;
+	scroll-behavior:smooth;
+	scroll-snap-type: x mandatory;
+	overscroll-behavior:none;
+}
+
+.slider ul:last-of-type li {
+  width:100%;
+  max-width:20em;
+
+	flex-shrink:0;
+  scroll-snap-align:center;
+  padding:0.5em;
+
+}
+
+.slider ul:last-of-type img {
+  width:100%;
+  }
+
+  .slider a {
+text-decoration: none ;
+font-size: 0.8em;
+color:var(--zwart-color);
+font-weight: normal;
+
+}
+
+.slider a:hover {
+  color:var(--rood-color);
+  font-weight: bolder;
+}
+
+
+/* footer */
+/**********************/
+.footer ul {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer ul li a{
+  margin: 0.5em;
+  list-style: none;
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+
+
+
+
+
+/* footer2 */
+/**********************/
+.footer2 ul:nth-of-type(2){
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.footer2 img {
+  margin: 1em;
+  padding: 0;
+  width: 20%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  flex: 0 0 auto;
+  margin: 0.625rem;
+  background-color: var(--rood-color);
+  display: flex;
+
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color:var(--wit-color);
+  opacity: 1;
+  transition: transform 150ms ease-in-out 0s;
+}
+
+
+
+
+
+/* mediaqeury */
+/* voor als het scherm wat groter dan 600px wordt*/
+/**********************/
+@media only screen and (min-width: 600px) {
+body{
+margin:0;
+}
+
+.uitgelicht ul li:nth-of-type(3),.uitgelicht ul li:nth-of-type(4){
+display:block;  
+}
+}
+
+
+
+@media only screen and (min-width: 900px) {
+.uitgelicht2 {
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.uitgelicht2 ul{
+width:50%;
+}
+}
