@@ -75,8 +75,9 @@ nose artikel
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik heb deze week alle afbeeldingen die ik wilde gebruiken al opgezocht en opgeslagen. Ook heb ik alvast de juiste pagina's aangemaakt zoals index.html en een artikel.html. Dit zijn allemaal voorbereidingne die ik heb getroffen zodat het werk later sneller en gemakkelijker gaat. Verder heb ik dit weekend nog wat extra geoefend met de javascript oefening omdat ik die nog een beetje ingewikkeld vind.
+ 
+ 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -108,8 +109,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+ Deze week was ik erg veel aan het stoeien met de eerste onderdelen die op mijn NOS website komen. Zo wilde ik bijvoorbeeld wat afbeeldingen met kopjes naast elkaar krijgen me behulp van flexbox. Dit lukte mij telkens niet omdat ik de verkeerde parent aanriep in mijn CSS. ik heb dit probleem heb ik gevonden door mijn website te inspecteren.
+ 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
