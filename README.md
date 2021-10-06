@@ -198,9 +198,13 @@ Tot slot heb ik nog even het groepje van Sanne kunnen bijwonen om een vraagje te
 ### Stand van zaken
 Deze week heb ik mij gefocus op mijn website geheel responsive te maken. Ik heb veel met Media Query's gewerkt wat ik heel fijn vond werken. Ook heb ik overal in mijn website waar ik kon de states geprobeerd te verwerken. Zo heb ik bijna alle H elementen een hover state gegeven. 
 
-### Screenshot(s)
+### Screenshots eind versie op mobiel
 
-hier screenshot(s) van je eindresultaat
+<img src="images/1.png" width="375px" alt="na">
+<img src="images/2.png" width="375px" alt="na">
+<img src="images/3.png" width="375px" alt="na">
+<img src="images/4.png" width="375px" alt="na">
+<img src="images/5.png" width="375px" alt="na">
 
 </details>
 
