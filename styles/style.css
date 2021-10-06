@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+
+
+
+
+
 /* ALGEMENE CUSTOM PROPERTIES */
 /******************************/
 :root {
@@ -15,42 +20,79 @@
   --blauw-color:#708da6;
 }
 
+
+
+
+
+/* lettertype van NOS */
+/**********************/
 @font-face {
   font-family: "Effra";
   src: url("/fonts/Effra_Std_Lt.ttf") format("Lt.ttf"),
        url("/fonts/Effra_Std_Rg.ttf") format("Rg.ttf");
 }
 
+
+
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: effra, helvetica, arial ;
-
 }
+
+
+
+
+
 
 img {
   width: 100%;
 }
+
+
+
+
 
 header img {
   width: auto;
   height:1.25em;
 }
 
+
+
+
+
+/* p element */
+/**********************/
 p {
   font-family: helvetica, arial ;
 margin:1em;
 }
 
+
+
+
+
+/* h elementen */
+/**********************/
 h1 {
   font-family: helvetica, arial ;
   margin:1em;
 }
 
+
+
+
+
 h2 {
   font-family: helvetica, arial ;
   margin:1em;
 }
+
+
+
 
 
 h3 {
@@ -72,17 +114,22 @@ h4 {
 }
 
 
-video {
-  /* padding: 1em;  
-  width:30em; 
-  height:18,5em; */
 
+
+
+/* video */
+/**********************/
+video {
   padding: 1em; 
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+
+
+
+
 
 /* liveblog */
 /**********************/
@@ -154,7 +201,6 @@ ul.hidden {
 
 /* header navigatie vormgeving */
 /**********************/
-
 header nav ul {
   margin: 1em;
   padding: 0;
@@ -190,6 +236,10 @@ header nav ul li a:hover{
   color:var(--rood-color);
   }
 
+
+
+
+
 header nav ul li button {
   background-color: transparent;
   border:none;
@@ -197,22 +247,42 @@ header nav ul li button {
   font-size: 1.3em;
 }
 
+
+
+
+
 header nav ul li button:active {
   color:var(--rood-color);
   font-size: 1.4em;
 }
 
+
+
+
 header nav ul li button svg {
 height:1.5em;
 }
+
+
+
+
 
 header nav ul li:nth-of-type(4) button svg{
   transform:rotate(90deg);
 }
 
+
+
+
+
+
 header nav ul li button svg path{
   fill:var(--grijs-color);
 }
+
+
+
+
 
 
 header nav ul li a.active {
@@ -221,9 +291,13 @@ color:var(--rood-color);
 
 
 
+
+
+
 header nav ul a {
 text-decoration: none;
 }
+
 
 
 
@@ -257,7 +331,6 @@ a {
 
 /* Blokken vormgeving */
 /**********************/
-
 .uitgelicht ul {
   list-style-type: none;
   margin: 1em;
@@ -379,10 +452,27 @@ margin-top: 0em;
 
 
 
-
-.uitgelicht-2 img {
+/* Dit stukje gaat over mijn homepagina index.html */
+.home .uitgelicht-2 img {
   width: 20%;
 }
+
+
+
+
+/* Dit stukje gaat over mijn tweede pagina artikel.html */
+.artikel .uitgelicht-2  {
+  width: 70%;
+}
+
+
+
+
+.artikel .uitgelicht-2 img {
+  width: 15%;
+}
+
+
 
 
 
@@ -582,18 +672,26 @@ list-style-type: none;
 
 
 /* mediaqeury */
-/* voor als het scherm wat groter dan 600px wordt*/
+/* voor als het scherm groter dan 600px word*/
 /**********************/
 @media only screen and (min-width: 600px) {
 body{
-width:80%;
 margin:0 auto;
 }
+
+/* zowordt de artikel pagina beter leesbaar en overzichtelijker */
+/**********************/
+.artikel{
+  width:80%;
+  margin:0 auto;
+  }
 
 .uitgelicht ul li:nth-of-type(3),.uitgelicht ul li:nth-of-type(4){
 display:block;  
 }
 
+/* zo verdwijnen de kleine plaatjes boven de slider als de pagina wordt vergroot  */
+/**********************/
 .slider ul:first-of-type{
   display:none;
 }
@@ -615,10 +713,12 @@ margin: 1em 1em 1em 3.25em;
 }
 
 
-
+/* mediaqeury */
+/* voor als het scherm groter dan 900px word*/
+/**********************/
 @media only screen and (min-width: 900px) {
 
-.tekst{
+.artikel{
   width:70%;
   margin:0 auto;
 
@@ -633,7 +733,7 @@ margin: 1em 1em 1em 3.25em;
 
 
 
-.uitgelicht-2 ul:first-of-type{
+.home .uitgelicht-2 ul:first-of-type{
 width:70%;
 }
 
@@ -649,10 +749,17 @@ width:70%;
 
 
 
-.uitgelicht-2 ul:last-of-type{
+ .home .uitgelicht-2 ul:last-of-type{
   width:25%;
   display:block;
   }
+
+
+
+
+  .artikel .uitgelicht-2 ul:last-of-type{
+    display:block;
+    }
 
 
 
@@ -661,8 +768,4 @@ width:70%;
   color:var(--rood-color);
 
 }
-
-
-
-
 }
