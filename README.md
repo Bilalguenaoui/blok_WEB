@@ -223,4 +223,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
  
 3. bron 3 voor de code die we bij de oefeningen hebben gemaakt
  https://codepen.io/your-work
+ 
+4. bron 4 voor kleine trucjes wat betreft CSS
+ https://css-tricks.com/almanac/properties/m/margin/
+ 
 </details>
