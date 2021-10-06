@@ -200,7 +200,7 @@ Deze week heb ik mij gefocus op mijn website geheel responsive te maken. Ik heb 
 
 ### Screenshots eind versie op mobiel
 
-<img src="images/1.png" width="375px" alt="na">
+<img src="images/1.PNG" width="375px" alt="na">
 <img src="images/2.png" width="375px" alt="na">
 <img src="images/3.png" width="375px" alt="na">
 <img src="images/4.png" width="375px" alt="na">
