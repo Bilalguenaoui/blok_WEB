@@ -118,7 +118,7 @@ Ook werd er nog een vraag gesteld over wat een javascript element wat met animer
 
 ## Toegankelijkheidstest (week 4)
 
-<details  open>
+<details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
@@ -165,7 +165,7 @@ Na
 
 ## Voortgang 3 (week 4)
 
-<details  open>
+<details>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
@@ -215,8 +215,12 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
-
+1. bron 1 voor de video link
+ https://www.w3schools.com/html/html5_video.asp
+ 
+2. bron 2  voor de CSS keuze van mijn website
+ https://nos.nl/
+ 
+3. bron 3 voor de code die we bij de oefeningen hebben gemaakt
+ https://codepen.io/your-work
 </details>
