@@ -152,6 +152,9 @@ ik weet niet hoe ik dit moet verbeteren
 ### Uitslag
 Ik heb besloten om mijn navigatie linkjes in de header wat te vergroten omdat die nu niet zo goed te zien zijn voor mensen met een oog afwijking.
 
+Voor
+ <img src="images/voor.jpg" width="375px" alt="voor">
+ <img src="images/na.jpg" width="375px" alt="na">
 </details>
 
 
