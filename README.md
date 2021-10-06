@@ -154,6 +154,8 @@ Ik heb besloten om mijn navigatie linkjes in de header wat te vergroten omdat di
 
 Voor
  <img src="images/voor.jpg" width="375px" alt="voor">
+ 
+Na
  <img src="images/na.jpg" width="375px" alt="na">
 </details>
 
