@@ -82,20 +82,13 @@ Ik heb deze week alle afbeeldingen die ik wilde gebruiken al opgezocht en opgesl
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1     
+De vragen die ik had voor dit gesprek gingen over Github ik wist nog niet zo goed hoe ik mijn website url online moest krijgen dat is nu gellukig wel gelukt.
+Verder had ik nog wat vragen over de oefeningen van deze week.
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
@@ -114,6 +107,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Agenda voor meeting
 De vrgaen die ik wilde stellen waren
+Ik wilde nog kort wat vragen over het maken van een grid en daar krijg ik een korte uitleg over van de studenten coaches die erg fijn was.
+Ook werd er nog een vraag gesteld over wat een javascript element wat met animeren te maken had die ook erg handig was voor mij.
 
 </details>
 
