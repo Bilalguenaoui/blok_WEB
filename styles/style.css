@@ -586,7 +586,8 @@ list-style-type: none;
 /**********************/
 @media only screen and (min-width: 600px) {
 body{
-margin:0;
+width:80%;
+margin:0 auto;
 }
 
 .uitgelicht ul li:nth-of-type(3),.uitgelicht ul li:nth-of-type(4){
@@ -596,11 +597,32 @@ display:block;
 .slider ul:first-of-type{
   display:none;
 }
+
+
+
+
+
+.tekst h2 {
+  margin: 1em 3em 1em 2em;
+  }
+
+
+
+
+.tekst p {
+margin: 1em 1em 1em 3.25em;
+}
 }
 
 
 
 @media only screen and (min-width: 900px) {
+
+.tekst{
+  width:70%;
+  margin:0 auto;
+
+}
 
 .uitgelicht-2 {
   display:flex;
@@ -639,4 +661,8 @@ width:70%;
   color:var(--rood-color);
 
 }
+
+
+
+
 }
